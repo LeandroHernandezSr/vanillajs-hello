@@ -3,14 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Generador de excusas</title>
   </head>
   <body>
-    <div>
+    <div class="contenedor-titulo">
       <h1>Generador de excusas</h1>
-      <div></div>
-      <p>Haz click en el botón para generar una excusa</p>
-      <button>Click aqui</button>
+      <p>¡Tu generador de excusas preferido!</p>
     </div>
+    <div class="contenedor-principal">
+      <div class="contenedor-excusas">
+        <p class="parrafo-excusa">.....</p>
+      </div>
+      <button class="btn-excusas" onclick="generadorExcusa()">Click aqui</button>
+      <p>Haz click en el botón para generar una excusa</p>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
